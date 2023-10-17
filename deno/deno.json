@@ -1,0 +1,8 @@
+{
+    "tasks": {
+        "deps": "deno cache deps.ts",
+        "build": "docker build -t libsql/deno .",
+        "start": "docker run -d -p 8000:8000 --rm libsql/deno",
+        "ping": "curl localhost:8000/"
+    }
+}
