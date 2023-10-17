@@ -3,8 +3,8 @@
     "module": "main.ts",
     "type": "module",
     "scripts": {
-        "build": "docker build -t adoublef/bun .",
-        "start": "docker run -d -p 8000:8000 --rm adoublef/bun",
+        "build": "docker build -t libsql/bun .",
+        "start": "docker run -d -p 8000:8000 --rm libsql/bun",
         "ping": "curl localhost:8000/"
     },
     "devDependencies": {
